@@ -11,6 +11,7 @@ Release:	%{release}
 License:	GPL
 Group:		Graphics
 URL:		http://www.logarithmic.net/pfh/resynthesizer
+Buildroot:	%{_tmppath}/%{plugin_name}-%{version}-buildroot
 Source:		http://www.logarithmic.net/pfh-files/resynthesizer/%{plugin_name}-%{version}.tar.bz2
 
 BuildRequires:	libgimp-devel >= %{req_gimp_version}

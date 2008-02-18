@@ -4,7 +4,7 @@
 %define name	gimp2-%plugin_name
 %define req_gimp_version 2.0
 
-Summary:	Resynthesizer is a Gimp plug-in for texture synthesis	
+Summary:	Gimp plug-in for texture synthesis	
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}

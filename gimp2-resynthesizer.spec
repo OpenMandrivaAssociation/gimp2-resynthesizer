@@ -1,6 +1,6 @@
 %define plugin_name	resynthesizer
 %define version 0.15
-%define release %mkrel 2
+%define release %mkrel 4
 %define name	gimp2-%plugin_name
 %define req_gimp_version 2.0
 

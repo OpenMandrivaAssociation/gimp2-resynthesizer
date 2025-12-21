@@ -14,6 +14,7 @@ URL:		https://www.logarithmic.net/pfh/resynthesizer
 Buildroot:	%{_tmppath}/%{plugin_name}-%{version}-buildroot
 Source:		http://www.logarithmic.net/pfh-files/resynthesizer/%{plugin_name}-%{version}.tar.bz2
 
+BuildRequires:	make
 BuildRequires:	libgimp-devel >= %{req_gimp_version}
 
 Requires:	gimp2_0 >= %{req_gimp_version}
